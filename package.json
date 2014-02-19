@@ -1,0 +1,12 @@
+{
+  "name": "smartos-pxe",
+  "version": "0.0.0",
+  "description": "Minimal TFTP Server for SmartOS PXE Boot",
+  "main": "tftpmain.js",
+  "author": "Joshua M. Clulow <jmc@joyent.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tftp": "0.0.18"
+  },
+  "private": true
+}

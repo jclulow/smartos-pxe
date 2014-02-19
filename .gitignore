@@ -1,0 +1,3 @@
+data/platform-*
+.*.swp
+node_modules/

@@ -1,0 +1,10 @@
+#!/bin/ksh
+
+set -o errexit
+
+DIR=$(dirname $(whence $0))
+
+[[ -d ${DIR}/node_modules/tftp ]] || (cd ${DIR} && npm install)
+
+sudo node ${DIR}/tftpmain.js "$@"
+

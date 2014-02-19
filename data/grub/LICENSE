@@ -1,0 +1,5 @@
+The file "pxegrub" is built from this source:
+  https://github.com/illumos/illumos-gate/tree/master/usr/src/grub
+
+(This binary is licensed as grub-0.97 is licensed, under the GPLv2 --
+ see COPYING in that repository.)
